@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Arduino</title>
+    <link href="../styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+<header>
+  <nav class="navig">
+      <a class="nav" href="../index.html">Accueil</a>
+      <a class="navi" href="info.html">Informatique</a>
+      <a class="navi" href="cg.html">Culture Générale</a>
+      <a class="navi" href="maths.html">Mathématiques</a>
+      <a class="navi" href="physa.html">Physique Appliquée</a>
+      <a class="navi" href="anglais.html">Anglais</a>
+  </nav>
+</header>
+
+<div class="pannel">
+  <h1 class="new">Arduino</h1>
+  <p class="new1">Tous les cours seront en pdf sur cette page</p>
+      <br><br>
+    </div>
+  </div>
+</div>
+<br><br><br>
+
+
+
+
+  <!-- ================================================== -->
+  <div class="menu">
+      <a class="navi" href="Arduino.html">Arduino</a>
+      <a class="navi" href="HTML.html">HTML</a>
+      <a class="navi" href="css.html">CSS</a>
+      <a class="navi" href="Js.html">JavaScript</a>
+      <a class="navi" href="PHP.html">PHP</a>
+      <a class="navi" href="Apache2.html">Apache2</a>
+      <a class="navi" href="PhpMyAdmin.html">PhpMyAdmin</a>
+      <a class="navi" href="Mysql.html">MySql</a>
+      <a class="navi" href="Raspberry.html">Raspberry</a>
+      <a class="navi" href="osi.html">Modele OSI</a>
+      <a class="navi" href="script.html">Script</a>
+  </div>
+<br>
+  <p align="center"><img src="../images/arduino.png" width="200px" height="150px"></p>
+
+
+<div class="structure">
+  <div class="padd">
+          <h1>Arduino</h1><br>
+          <img src="../images/ard1.png" width="350px" height="250px">
+          <p>Arduino est la marque d'une plateforme de prototypage open-source qui permet
+            aux utilisateurs de créer des objets électroniques interactifs à partir de cartes électroniques
+            matériellement libres sur lesquelles se trouve un microcontrôleur. Les schémas de ces cartes électroniques
+            sont publiés en licence libre.</p>
+
+            <img src="../images/ard2.png" width="750px" height="500px">
+            <p>Ci-dessus nous avons l'interface Arduino, l'encadré rouge nous indique le nom de la carte utilisé
+              et le port sur lequel elle est branchée.<br>
+              <span>Void setup</span> est l'endroit où nous allons placer le code qui sera exécuté une seul fois.<br>
+              <span>Void loop</span> est l'endroit où le code sera exécuté en boucle.</p>
+
+              <img src="../images/ard3.png" width="750px" height="500px">
+              <p>Ci-dessus nous avons l'interface Arduino, l'encadré rouge nous indique comment ajouter une librairie sur arduino.</p>
+
+    					<h4>Entrées/sorties</h4>
+    						<p>Sur les cartes éléctroniques Arduino, nous avons des entrées et des sorties :
+    						- Les entrées sont utilisé pour pouvoir lire l'état initial d'un bouton ou autre,
+    						- Les sorties sont utilisé pour exécuter le programme sur une LED par exemple.</p>
+    					<h4>Grandeurs analogique/numérique</h4>
+    						<p>Les grandeur analogique possède 1024 valeurs (0 à 1023), alors qu'une grandeur numérique dispose 2 valeurs (0 -> pas de signal et 1 -> un signal).</p>
+    					<h4>Conversion analogique/numérique</h4>
+    						<p>La conversion analogique/numérique permet de communiquer du système analogique vers le système numérique.</p>
+    					<h4>Structure conditionelle</h4>
+    						<p>La structure conditionelle est représenté par la déclaration if dans laquelle se trouvera une confition comme par exemple :<br>
+    						<img src="../images/arduino2.png">
+    						<p>Dans la déclaration de if, nous allons retrouver else qui sera utilisé si la condition de if n'est pas rempli.</p>
+    					<h4>Structure itérative</h4>
+    						<p>Dans la structure itérative, nous allons retrouver la boucle for qui est utilisé pour les actions répétitives.</p>
+    						<img src="../images/arduino3.png">
+    						<p>Par exemple, sur l'image ci-dessus, dans cette structure itérative, nous pouvons voir une structure conditionelle, nous pouvons donc utiliser les deux dans le même cas.</p>
+    					<h4>Utiliser une bibliothèque</h4>
+    						<p>Pour utilser une bibliothèque, nous devons tout d’abord nous assurer que nous disposons bien de la bibliothèque en question, sinon il faudra la télécharger, une fois fait, pour la retrouver il suffit de faire : Croquis>Inclure une bibliothèque>...
+    						<img>
+    					<h4>Moniteur série</h4>
+    						<p>Le moniteur série nous permet de faire la communication entre la carte arduino et notre pc. Avant d’utiliser le moniteur série, il nous faut l’initialiser avec : Serial.begin (9600) 9600 est la valeur par défaut et correspond à la vitesse de transmission entre la carte et le PC.
+    						Nous pouvons voir dans ce moniteur série l’exécution du programmes si jamais nous avons utilisé par exemple :</p>
+    						<p>Serial.print(Température:);</p>
+    						<p>Serial.print(Tempvalue);</p>
+    						<p>Dans le moniteur série nous aurons par exemple si il fait 25 °C :
+    						Température : 25
+    						En sortie, le moniteur série affiche les valeurs reçu par la carte et en entrée, elle affiche les transmissions reçu de l’ordinateur.</p>
+    					<h4>Modulation de largeur d’impulsions</h4>
+    						<p>La modulation de largeur d’impulsions (PWM) sert à lire la valeur analogique en utilisant dans le programme analogWrite( )</p>
+    					<h4>Les intérruptions</h4>
+    						<p>Une interruption est utilisée pour interrompre le programme sur une durée pour exécuté un autre programme, quand celui-ci est terminé, le 1er programme reprend son exécution là où il c’était arrêté avant l’interruption.</p>
+    				</div>
+
+
+
+    </div>
+  </div>
+<br><br><br><br><br><br><br><br>
+  </body>
+</html>
