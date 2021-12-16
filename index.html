@@ -4,18 +4,36 @@
     <meta charset="utf-8">
     <title>Accueil</title>
     <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/style2.css" rel="stylesheet">
   </head>
   <body>
 
 <header>
-  <nav class="navig">
-      <a class="nav" href="#">Accueil</a>
-      <a class="navi" href="page/info.html">Informatique</a>
-      <a class="navi" href="page/cg.html">Culture Générale</a>
-      <a class="navi" href="page/maths.html">Mathématiques</a>
-      <a class="navi" href="page/physa.html">Physique Appliquée</a>
-      <a class="navi" href="page/anglais.html">Anglais</a>
+
+  <nav>
+    <ul>
+      <li><a class="nav" href="#">Accueil</a></li>
+      <li><a class="navi" href="page/cg.html">Culture Générale</a></li>
+      <li><a class="navi" href="page/maths.html">Mathématiques</a></li>
+      <li><a class="navi" href="page/physa.html">Physique Appliquée</a</li>
+      <li><a class="navi" href="page/anglais.html">Anglais</a></li>
+
+      <li class="menu-deroulant">
+        <a class="navi">Informatique</a>
+          <ul class="sous-menu">
+                <li>  <a href="page/arduino.html">Arduino</a></li>
+                <li>  <a href="page/HTML.html">HTML</a></li>
+                <li>  <a href="page/css.html">CSS</a></li>
+                <li>  <a href="page/Js.html">JavaScript</a></li>
+                <li>  <a href="page/PHP.html">PHP</a></li>
+                <li>  <a href="page/Raspberry.html">Raspberry</a></li>
+                <li>  <a href="page/osi.html">Modele OSI</a></li>
+                <li>  <a href="page/script.html">Script</a></li>
+        </ul>
+      </li>
+    </ul>
   </nav>
+
 </header>
 
 <div class="pannel">
@@ -27,9 +45,6 @@
 </div>
 <br><br><br>
 
-
-
-
   <!-- ================================================== -->
 
 
@@ -38,11 +53,11 @@
         <a href="https://discord.gg/" target="_blank"><img class="round" src="images/discord.png" width="150px" height="150px"></a>
         <h2>Discord</h2>
         <p class="text2">Cliquez ci-dessus pour acceder à notre discord</p>
-    </td><td class="table">
+      </td><td class="table">
         <a href="https://www.bpascal.fr" target="_blank"><img class="round" src="images/bpascal.png" width="150px" height="150px"></a>
         <h2>Site du Lycée</h2>
         <p class="text2">Cliquez ci-dessus pour acceder au site du Lycée</p>
-    </td><td class="table">
+      </td><td class="table">
         <a href="https://lycee.bpascal.fr/owncloud/index.php/login" target="_blank"><img class="round" src="images/kwartz.png" width="150px" height="150px"></a>
         <h2>Kwartz</h2>
         <p class="text2">Cliquez ci-dessus pour acceder au kwartz</p>
@@ -50,6 +65,6 @@
 </table>
   <hr>
 <br>
-<br><br><br><br><br><br><br><br>
+
   </body>
 </html>
